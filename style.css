@@ -1,0 +1,19 @@
+*{
+    width: 100%;
+}
+.col button{
+    width: 150px;
+}
+.col button img{
+    width: 40px;
+}
+.col ul{
+    list-style-type: none; 
+}
+.col ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.col ul li a:hover{
+    color: blue;
