@@ -17,3 +17,10 @@
 }
 .col ul li a:hover{
     color: blue;
+}
+@media(max-width: 768px){
+        main .part img{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1, 1fr);
+        }
+    }
